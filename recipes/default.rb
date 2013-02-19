@@ -1,8 +1,8 @@
 include_recipe "php"
 
-php_pear "PDO" do
-  action :install
-end
+#php_pear "PDO" do
+#  action :install
+#end
 
 # Required to install APC.
 package "libpcre3-dev"
