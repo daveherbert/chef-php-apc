@@ -1,4 +1,4 @@
-default['php']['apc']['version']          =   "3.1.6"
+default['php']['apc']['version']          =   "3.1.9"
 
 default['php']['apc']['configuration']    =   {
   'enabled'               =>    1,

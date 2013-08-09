@@ -5,7 +5,7 @@ package "libpcre3-dev"
 
 # Install APC.
 php_pear "APC" do
-  directives(node['php']['apc']['configuration'])
   version node['php']['apc']['version']
+  directives(node['php']['apc']['configuration'])
   action :install
 end
